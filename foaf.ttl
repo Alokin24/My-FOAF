@@ -20,3 +20,22 @@
 <foaf:workInfoHomepage rdf:resource="https://www.ziprecruiter.com/e/What-Does-a-Java-Software-Engineer-Do"/>
 <foaf:schoolHomepage rdf:resource="https://finki.ukim.mk/"/></foaf:Person>
 </rdf:RDF>
+
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<https://raw.githubusercontent.com/Alokin24/My-FOAF/master/foaf.ttl> a foaf:PersonalProfileDocument ;
+    admin:errorReportsTo <mailto:leigh@ldodds.com> ;
+    admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+    foaf:maker <https://raw.githubusercontent.com/Alokin24/My-FOAF/master/foaf.ttl#me> ;
+    foaf:primaryTopic <https://raw.githubusercontent.com/Alokin24/My-FOAF/master/foaf.ttl#me> .
+
+<https://raw.githubusercontent.com/Alokin24/My-FOAF/master/foaf.ttl#me> a foaf:Person ;
+    foaf:family_name "Anastasovski" ;
+    foaf:givenname "Nikola " ;
+    foaf:mbox_sha1sum "29feda69ccbe0b82accfcf2c69f38ee8dbd99091" ;
+    foaf:name "Nikola  Anastasovski" ;
+    foaf:schoolHomepage <https://finki.ukim.mk/> ;
+    foaf:title "Mr" ;
+    foaf:workInfoHomepage <https://www.ziprecruiter.com/e/What-Does-a-Java-Software-Engineer-Do> ;
+    foaf:workplaceHomepage <https://www.netcetera.com/home.html> .
