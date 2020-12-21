@@ -1,26 +1,3 @@
-<rdf:RDF
-      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-      xmlns:admin="http://webns.net/mvcb/"
-      xml:base="https://raw.githubusercontent.com/Alokin24/My-FOAF/master/foaf.ttl#">
-<foaf:PersonalProfileDocument rdf:about="">
-  <foaf:maker rdf:resource="#me"/>
-  <foaf:primaryTopic rdf:resource="#me"/>
-  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
-  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
-</foaf:PersonalProfileDocument>
-<foaf:Person rdf:ID="me">
-<foaf:name>Nikola  Anastasovski</foaf:name>
-<foaf:title>Mr</foaf:title>
-<foaf:givenname>Nikola </foaf:givenname>
-<foaf:family_name>Anastasovski</foaf:family_name>
-<foaf:mbox_sha1sum>29feda69ccbe0b82accfcf2c69f38ee8dbd99091</foaf:mbox_sha1sum>
-<foaf:workplaceHomepage rdf:resource="https://www.netcetera.com/home.html"/>
-<foaf:workInfoHomepage rdf:resource="https://www.ziprecruiter.com/e/What-Does-a-Java-Software-Engineer-Do"/>
-<foaf:schoolHomepage rdf:resource="https://finki.ukim.mk/"/></foaf:Person>
-</rdf:RDF>
-
 @prefix admin: <http://webns.net/mvcb/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
